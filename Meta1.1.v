@@ -4,7 +4,7 @@ output S0, S1, Co;
 wire w1;
 
 MeioSomador(A, C, w1, S0);
-SomadorCompleto(B, D, w1, C0, S1);
+  SomadorCompleto(B, D, w1, Co, S1);
 
 
 
@@ -32,3 +32,4 @@ and (CieA, A, Ci);
 or (Co, AeB, CieA);
 
 endmodule 
+
